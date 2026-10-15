@@ -1,15 +1,394 @@
 {
   "apps": [
     {
-      "name": "GeraStore Demo",
-      "version": "—",
-      "category": "Утилиты",
-      "description": "Демо-карточка. Заменяется данными из apps.json вашего репозитория.",
-      "iconURL": "assets/images/gerastore-mark.svg",
-      "downloadURL": "#",
-      "updated": "—",
+      "name": "А-Ключ",
+      "version": "2.0.0",
+      "category": "Финансы",
+      "description": "⚙️Особенности⚙️\n\n🩷Новое приложение, удалённое из ❌💙AppStore.\n🩷Бесконтактная оплата с iPhone через Bluetooth.\n🩷Новые функции и улучшения.\n\n💳 А-Ключ - новое приложение Альфа-Банка для iPhone с поддержкой бесконтактной оплаты.",
+      "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/com.kluchapp.prod.png",
+      "downloadURL": "https://github.com/gkuhtov/GeraKStore/releases/download/gerastore-com.kluchapp.prod-2.0.0/Alfabank.ipa",
+      "updated": "2026-09-02T02:01:36+0800",
       "minIOSVersion": "—",
-      "bundleIdentifier": "com.gkuhtov.gerastore"
+      "bundleIdentifier": "com.kluchapp.prod",
+      "developerName": "ГЕРЫЧ",
+      "whatsNew": "",
+      "versions": [
+        {
+          "version": "2.0.0",
+          "date": "2026-07-30",
+          "downloadURL": "https://github.com/gkuhtov/GeraKStore/releases/download/gerastore-com.kluchapp.prod-2.0.0/Alfabank.ipa",
+          "size": 225693759,
+          "appSize": 225693759,
+          "fileSize": 225693759,
+          "appFileSize": 225693759,
+          "human_file_size": "215.2 MB",
+          "appPlist": "https://gkuhtov.github.io/GeraKStore/plist/com.kluchapp.prod.plist",
+          "minimumOSVersion": "",
+          "category": "Финансы",
+          "localizedDescription": "⚙️Особенности⚙️\n\n🩷Новое приложение, удалённое из ❌💙AppStore.\n🩷Бесконтактная оплата с iPhone через Bluetooth.\n🩷Новые функции и улучшения.\n\n💳 А-Ключ - новое приложение Альфа-Банка для iPhone с поддержкой бесконтактной оплаты.",
+          "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/com.kluchapp.prod.png"
+        }
+      ]
+    },
+    {
+      "name": "Board Adventure",
+      "version": "3.5.2590",
+      "category": "Игры",
+      "description": "⚙️Особенности⚙️\n\n🩷Собирайте монеты и развивайте деревни.\n🩷Атакуйте деревни соперников и совершайте набеги.\n🩷Собирайте карты и завершайте коллекции.\n\n🎲 Бросайте кубики, двигайтесь по игровому полю, развивайте свою деревню и открывайте новые миры.",
+      "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/com.moonactive.cmboard.png",
+      "downloadURL": "https://github.com/gkuhtov/GeraKStore/releases/download/gerastore-com.moonactive.cmboard-3.5.2590/Coin.Master.-.Board.Adventure.ipa",
+      "updated": "2026-09-02T02:01:36+0800",
+      "minIOSVersion": "—",
+      "bundleIdentifier": "com.moonactive.cmboard",
+      "developerName": "ГЕРЫЧ",
+      "whatsNew": "",
+      "versions": [
+        {
+          "version": "3.5.2590",
+          "date": "2026-08-04",
+          "downloadURL": "https://github.com/gkuhtov/GeraKStore/releases/download/gerastore-com.moonactive.cmboard-3.5.2590/Coin.Master.-.Board.Adventure.ipa",
+          "size": 127183823,
+          "appSize": 127183823,
+          "fileSize": 127183823,
+          "appFileSize": 127183823,
+          "human_file_size": "121.3 MB",
+          "appPlist": "https://gkuhtov.github.io/GeraKStore/plist/com.moonactive.cmboard.plist",
+          "minimumOSVersion": "",
+          "category": "Игры",
+          "localizedDescription": "⚙️Особенности⚙️\n\n🩷Собирайте монеты и развивайте деревни.\n🩷Атакуйте деревни соперников и совершайте набеги.\n🩷Собирайте карты и завершайте коллекции.\n\n🎲 Бросайте кубики, двигайтесь по игровому полю, развивайте свою деревню и открывайте новые миры.",
+          "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/com.moonactive.cmboard.png"
+        }
+      ]
+    },
+    {
+      "name": "Bridge Constructor+",
+      "version": "14.0.873",
+      "category": "Игры",
+      "description": "⚙️Особенности PLUS⚙️\n\n🩷Без рекламы.\n🩷40 уровней.\n🩷Дополнительные задания и материалы.\n\n🌉 Стройте мосты через долины, каналы и реки, выбирайте подходящие материалы и проверяйте конструкции под нагрузкой автомобилей и грузовиков.",
+      "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/com.headupgames.bridgeconstructor-arcade.png",
+      "downloadURL": "https://github.com/gkuhtov/GeraKStore/releases/download/gerastore-com.headupgames.bridgeconstructor-arcade-14.0.873/Bridge.Constr.ipa",
+      "updated": "2026-09-02T02:01:36+0800",
+      "minIOSVersion": "—",
+      "bundleIdentifier": "com.headupgames.bridgeconstructor-arcade",
+      "developerName": "ГЕРЫЧ",
+      "whatsNew": "",
+      "versions": [
+        {
+          "version": "14.0.873",
+          "date": "2026-08-06T13:00:26Z",
+          "downloadURL": "https://github.com/gkuhtov/GeraKStore/releases/download/gerastore-com.headupgames.bridgeconstructor-arcade-14.0.873/Bridge.Constr.ipa",
+          "size": 119786529,
+          "appSize": 119786529,
+          "fileSize": 119786529,
+          "appFileSize": 119786529,
+          "human_file_size": "114.2 MB",
+          "appPlist": "https://gkuhtov.github.io/GeraKStore/plist/com.headupgames.bridgeconstructor-arcade.plist",
+          "minimumOSVersion": "",
+          "category": "Игры",
+          "localizedDescription": "⚙️Особенности PLUS⚙️\n\n🩷Без рекламы.\n🩷40 уровней.\n🩷Дополнительные задания и материалы.\n\n🌉 Стройте мосты через долины, каналы и реки, выбирайте подходящие материалы и проверяйте конструкции под нагрузкой автомобилей и грузовиков.",
+          "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/com.headupgames.bridgeconstructor-arcade.png"
+        }
+      ]
+    },
+    {
+      "name": "RuTube",
+      "version": "1.1.0",
+      "category": "Развлечения",
+      "description": "⚙️Особенности МОДА⚙️\n\n🩷Недоступно в ❌💙AppStore.\n🩷Удалена реклама.\n🩷Активация по ссылке удалена.\n\n🎬 Новое приложение RuTube под видом игры. Приложение сразу работает в штатном режиме без необходимости активации. Запускать без впн.",
+      "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/com.slicingdice.game.png",
+      "downloadURL": "https://github.com/gkuhtov/GeraKStore/releases/download/gerastore-com.slicingdice.game-1.1.0/RuTube.ipa",
+      "updated": "2026-09-02T02:01:36+0800",
+      "minIOSVersion": "—",
+      "bundleIdentifier": "com.slicingdice.game",
+      "developerName": "ГЕРЫЧ",
+      "whatsNew": "",
+      "versions": [
+        {
+          "version": "1.1.0",
+          "date": "2026-08-10T13:17:04Z",
+          "downloadURL": "https://github.com/gkuhtov/GeraKStore/releases/download/gerastore-com.slicingdice.game-1.1.0/RuTube.ipa",
+          "size": 35875020,
+          "appSize": 35875020,
+          "fileSize": 35875020,
+          "appFileSize": 35875020,
+          "human_file_size": "34.2 MB",
+          "appPlist": "https://gkuhtov.github.io/GeraKStore/plist/com.slicingdice.game.plist",
+          "minimumOSVersion": "",
+          "category": "Развлечения",
+          "localizedDescription": "⚙️Особенности МОДА⚙️\n\n🩷Недоступно в ❌💙AppStore.\n🩷Удалена реклама.\n🩷Активация по ссылке удалена.\n\n🎬 Новое приложение RuTube под видом игры. Приложение сразу работает в штатном режиме без необходимости активации. Запускать без впн.",
+          "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/com.slicingdice.game.png"
+        }
+      ]
+    },
+    {
+      "name": "Persona",
+      "version": "1.15.38",
+      "category": "Фото и видео",
+      "description": "⚙️Особенности PRO⚙️\n\n🩷Разблокированы платные функции.\n🩷Профессиональные инструменты редактирования.\n🩷Фильтры и эффекты.\n\n📸 Persona Pro позволяет редактировать фотографии, применять эффекты и использовать расширенные инструменты обработки изображений прямо на iPhone.",
+      "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/com.tickettothemoon.video.persona.png",
+      "downloadURL": "https://github.com/gkuhtov/GeraKStore/releases/download/gerastore-com.tickettothemoon.video.persona-1.15.38/Persona_GeraKStore.ipa",
+      "updated": "2026-09-02T02:01:36+0800",
+      "minIOSVersion": "—",
+      "bundleIdentifier": "com.tickettothemoon.video.persona",
+      "developerName": "ГЕРЫЧ",
+      "whatsNew": "",
+      "versions": [
+        {
+          "version": "1.15.38",
+          "date": "2026-08-28T16:49:31Z",
+          "downloadURL": "https://github.com/gkuhtov/GeraKStore/releases/download/gerastore-com.tickettothemoon.video.persona-1.15.38/Persona_GeraKStore.ipa",
+          "size": 174804509,
+          "appSize": 174804509,
+          "fileSize": 174804509,
+          "appFileSize": 174804509,
+          "human_file_size": "166.7 MB",
+          "appPlist": "https://gkuhtov.github.io/GeraKStore/plist/com.tickettothemoon.video.persona.plist",
+          "minimumOSVersion": "",
+          "category": "Фото и видео",
+          "localizedDescription": "⚙️Особенности PRO⚙️\n\n🩷Разблокированы платные функции.\n🩷Профессиональные инструменты редактирования.\n🩷Фильтры и эффекты.\n\n📸 Persona Pro позволяет редактировать фотографии, применять эффекты и использовать расширенные инструменты обработки изображений прямо на iPhone.",
+          "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/com.tickettothemoon.video.persona.png"
+        }
+      ]
+    },
+    {
+      "name": "Online",
+      "version": "17.6.1",
+      "category": "Финансы",
+      "description": "⚙️Особенности⚙️\n\n🩷Переводы и платежи.\n🩷Новое приложение, удалённое из ❌💙AppStore.\n🩷Оплата услуг по QR-коду.\n\n🏦 СберБанк Онлайн - полноценное банковское приложение для управления финансами, платежей и переводов с iPhone.",
+      "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/com.inv.gen.png",
+      "downloadURL": "https://github.com/gkuhtov/GeraKStore/releases/download/gerastore-com.inv.gen-17.6.1/Online.ipa",
+      "updated": "2026-08-24T00:30:46+0800",
+      "minIOSVersion": "—",
+      "bundleIdentifier": "com.inv.gen",
+      "developerName": "ГЕРЫЧ",
+      "whatsNew": "",
+      "versions": [
+        {
+          "version": "17.6.1",
+          "date": "2026-09-02",
+          "downloadURL": "https://github.com/gkuhtov/GeraKStore/releases/download/gerastore-com.inv.gen-17.6.1/Online.ipa",
+          "size": 296656711,
+          "appSize": 296656711,
+          "fileSize": 296656711,
+          "appFileSize": 296656711,
+          "human_file_size": "282.9 MB",
+          "appPlist": "https://gkuhtov.github.io/GeraKStore/plist/com.inv.gen.plist",
+          "minimumOSVersion": "",
+          "category": "Финансы",
+          "localizedDescription": "⚙️Особенности⚙️\n\n🩷Переводы и платежи.\n🩷Новое приложение, удалённое из ❌💙AppStore.\n🩷Оплата услуг по QR-коду.\n\n🏦 СберБанк Онлайн - полноценное банковское приложение для управления финансами, платежей и переводов с iPhone.",
+          "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/com.inv.gen.png"
+        }
+      ]
+    },
+    {
+      "name": "Сириус",
+      "version": "2.0.1",
+      "category": "Финансы",
+      "description": "⚙️Особенности⚙️\n\n🩷Переводы по номеру телефона.\n🩷Недоступно в ❌💙AppStore.\n🩷Оплата покупок и услуг.\n\n💳 ВТБ Онлайн позволяет управлять картами и счетами, совершать переводы, оплачивать покупки и услуги прямо с iPhone.",
+      "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/com.sm.FlowTime.png",
+      "downloadURL": "https://github.com/gkuhtov/GeraKStore/releases/download/gerastore-com.sm.FlowTime-2.0.1/default.ipa",
+      "updated": "2026-08-24T00:30:46+0800",
+      "minIOSVersion": "—",
+      "bundleIdentifier": "com.sm.FlowTime",
+      "developerName": "ГЕРЫЧ",
+      "whatsNew": "",
+      "versions": [
+        {
+          "version": "2.0.1",
+          "date": "2026-09-02",
+          "downloadURL": "https://github.com/gkuhtov/GeraKStore/releases/download/gerastore-com.sm.FlowTime-2.0.1/default.ipa",
+          "size": 379282059,
+          "appSize": 379282059,
+          "fileSize": 379282059,
+          "appFileSize": 379282059,
+          "human_file_size": "361.7 MB",
+          "appPlist": "https://gkuhtov.github.io/GeraKStore/plist/com.sm.FlowTime.plist",
+          "minimumOSVersion": "",
+          "category": "Финансы",
+          "localizedDescription": "⚙️Особенности⚙️\n\n🩷Переводы по номеру телефона.\n🩷Недоступно в ❌💙AppStore.\n🩷Оплата покупок и услуг.\n\n💳 ВТБ Онлайн позволяет управлять картами и счетами, совершать переводы, оплачивать покупки и услуги прямо с iPhone.",
+          "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/com.sm.FlowTime.png"
+        }
+      ]
+    },
+    {
+      "name": "Radarbot",
+      "version": "9.43",
+      "category": "Навигация",
+      "description": "⚙️Особенности PRO⚙️\n\n🩷Без рекламы.\n🩷Визуальная интеграция с другими приложениями.\n🩷Работа в фоновом режиме.\n\n🚗 Radarbot предупреждает о камерах контроля и опасных участках дороги. Приложение работает в фоне и может использоваться вместе с навигатором.",
+      "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/com.iteration-mobile.radarbot-free-ww.png",
+      "downloadURL": "https://github.com/gkuhtov/GeraKStore/releases/download/radarbot-9.43/Radarbot.ipa",
+      "updated": "2026-08-24T00:30:46+0800",
+      "minIOSVersion": "—",
+      "bundleIdentifier": "com.iteration-mobile.radarbot-free-ww",
+      "developerName": "ГЕРЫЧ",
+      "whatsNew": "",
+      "versions": [
+        {
+          "version": "9.43",
+          "date": "2026-09-02",
+          "downloadURL": "https://github.com/gkuhtov/GeraKStore/releases/download/radarbot-9.43/Radarbot.ipa",
+          "size": 148911591,
+          "appSize": 148911591,
+          "fileSize": 148911591,
+          "appFileSize": 148911591,
+          "human_file_size": "142.0 MB",
+          "appPlist": "https://gkuhtov.github.io/GeraKStore/plist/com.iteration-mobile.radarbot-free-ww.plist",
+          "minimumOSVersion": "",
+          "category": "Навигация",
+          "localizedDescription": "⚙️Особенности PRO⚙️\n\n🩷Без рекламы.\n🩷Визуальная интеграция с другими приложениями.\n🩷Работа в фоновом режиме.\n\n🚗 Radarbot предупреждает о камерах контроля и опасных участках дороги. Приложение работает в фоне и может использоваться вместе с навигатором.",
+          "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/com.iteration-mobile.radarbot-free-ww.png"
+        }
+      ]
+    },
+    {
+      "name": "BeautyCam",
+      "version": "12.6.60",
+      "category": "Фото и видео",
+      "description": "⚙️Особенности PRO⚙️\n\n🩷Премиум-функции.\n🩷Расширенные инструменты ретуши.\n🩷Фильтры и эффекты без ограничений.\n\n📸 BeautyCam - приложение для обработки фотографий и селфи с инструментами ретуши, фильтрами, эффектами и улучшением внешности. Некотрые функции ai не работают.",
+      "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/com.meitu.myxj.png",
+      "downloadURL": "https://github.com/gkuhtov/GeraKStore/releases/download/gerastore-com.meitu.myxj-12.6.60/BeautyCam-ipaomtk.com.ipa",
+      "updated": "2026-09-04T17:51:47+0800",
+      "minIOSVersion": "—",
+      "bundleIdentifier": "com.meitu.myxj",
+      "developerName": "ГЕРЫЧ",
+      "whatsNew": "",
+      "versions": [
+        {
+          "version": "12.6.60",
+          "date": "2026-09-04T09:51:47Z",
+          "downloadURL": "https://github.com/gkuhtov/GeraKStore/releases/download/gerastore-com.meitu.myxj-12.6.60/BeautyCam-ipaomtk.com.ipa",
+          "size": 230360881,
+          "appSize": 230360881,
+          "fileSize": 230360881,
+          "appFileSize": 230360881,
+          "human_file_size": "219.7 MB",
+          "appPlist": "https://gkuhtov.github.io/GeraKStore/plist/com.meitu.myxj.plist",
+          "minimumOSVersion": "",
+          "category": "Фото и видео",
+          "localizedDescription": "⚙️Особенности PRO⚙️\n\n🩷Премиум-функции.\n🩷Расширенные инструменты ретуши.\n🩷Фильтры и эффекты без ограничений.\n\n📸 BeautyCam - приложение для обработки фотографий и селфи с инструментами ретуши, фильтрами, эффектами и улучшением внешности. Некотрые функции ai не работают.",
+          "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/com.meitu.myxj.png"
+        }
+      ]
+    },
+    {
+      "name": "Яндекс Банк",
+      "version": "0.234.4",
+      "category": "Финансы",
+      "description": "⚙️Особенности⚙️\n\n🩷Оплата через Пэй и СБП.\n🩷Карта Пэй и счета разных банков.\n🩷Кешбэк баллами Плюса и персональные предложения.\n\n💳 Яндекс Пэй объединяет карты и счета в одном приложении, позволяет быстро оплачивать покупки и получать выгоду в сервисах Яндекса и у партнёров.",
+      "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/com.yandex.fintech.bank-app.png",
+      "downloadURL": "https://github.com/gkuhtov/GeraKStore/releases/download/gerastore-com.yandex.fintech.bank-app-0.234.4/v0.234.4.ipa",
+      "updated": "2026-09-04T19:00:16+0800",
+      "minIOSVersion": "—",
+      "bundleIdentifier": "com.yandex.fintech.bank-app",
+      "developerName": "ГЕРЫЧ",
+      "whatsNew": "",
+      "versions": [
+        {
+          "version": "0.234.4",
+          "date": "2026-09-04T11:00:16Z",
+          "downloadURL": "https://github.com/gkuhtov/GeraKStore/releases/download/gerastore-com.yandex.fintech.bank-app-0.234.4/v0.234.4.ipa",
+          "size": 54344567,
+          "appSize": 54344567,
+          "fileSize": 54344567,
+          "appFileSize": 54344567,
+          "human_file_size": "51.8 MB",
+          "appPlist": "https://gkuhtov.github.io/GeraKStore/plist/com.yandex.fintech.bank-app.plist",
+          "minimumOSVersion": "",
+          "category": "Финансы",
+          "localizedDescription": "⚙️Особенности⚙️\n\n🩷Оплата через Пэй и СБП.\n🩷Карта Пэй и счета разных банков.\n🩷Кешбэк баллами Плюса и персональные предложения.\n\n💳 Яндекс Пэй объединяет карты и счета в одном приложении, позволяет быстро оплачивать покупки и получать выгоду в сервисах Яндекса и у партнёров.",
+          "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/com.yandex.fintech.bank-app.png"
+        }
+      ]
+    },
+    {
+      "name": "Цифровой сейф",
+      "version": "6.1.3",
+      "category": "Финансы",
+      "description": "⚙️Особенности⚙️\n\n🩷Мгновенная оплата через Турбо QR.\n🩷Автопополнение карты с другого банка.\n🩷Оплата транспортных карт и заправок.\n\n⛽ Газпромбанк - мобильное приложение для управления финансами, оплаты покупок, транспорта и повседневных услуг с удобной аналитикой расходов.",
+      "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/com.app.home.vault.prod.png",
+      "downloadURL": "https://github.com/gkuhtov/GeraKStore/releases/download/gerastore-com.app.home.vault.prod-6.1.3/v6.1.3.ipa",
+      "updated": "2026-09-05T01:31:39+0800",
+      "minIOSVersion": "16.0",
+      "bundleIdentifier": "com.app.home.vault.prod",
+      "developerName": "ГЕРЫЧ",
+      "whatsNew": "",
+      "versions": [
+        {
+          "version": "6.1.3",
+          "date": "2026-09-04T17:31:39Z",
+          "downloadURL": "https://github.com/gkuhtov/GeraKStore/releases/download/gerastore-com.app.home.vault.prod-6.1.3/v6.1.3.ipa",
+          "size": 266386450,
+          "appSize": 266386450,
+          "fileSize": 266386450,
+          "appFileSize": 266386450,
+          "human_file_size": "254.0 MB",
+          "appPlist": "https://gkuhtov.github.io/GeraKStore/plist/com.app.home.vault.prod.plist",
+          "minimumOSVersion": "16.0",
+          "category": "Финансы",
+          "localizedDescription": "⚙️Особенности⚙️\n\n🩷Мгновенная оплата через Турбо QR.\n🩷Автопополнение карты с другого банка.\n🩷Оплата транспортных карт и заправок.\n\n⛽ Газпромбанк - мобильное приложение для управления финансами, оплаты покупок, транспорта и повседневных услуг с удобной аналитикой расходов.",
+          "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/com.app.home.vault.prod.png"
+        }
+      ]
+    },
+    {
+      "name": "Yandex.Music",
+      "version": "787",
+      "category": "Музыка",
+      "description": "⚙️Особенности МОДА⚙️\n\n🩷Премиум-функции разблокированы.\n🩷Без рекламы.\n🩷Офлайн-прослушивание и высокое качество звука.\n\n🎵 Яндекс Музыка - миллионы треков, подкастов и аудиокниг, персональные рекомендации «Моя волна» и музыка без ограничений.",
+      "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/ru.yandex.mobile.music.png",
+      "downloadURL": "https://github.com/gkuhtov/GeraKStore/releases/download/gerastore-ru.yandex.mobile.music-787/_GeraKStore.ipa",
+      "updated": "2026-09-05T16:03:59+0800",
+      "minIOSVersion": "10.0",
+      "bundleIdentifier": "ru.yandex.mobile.music",
+      "developerName": "ГЕРЫЧ",
+      "whatsNew": "",
+      "versions": [
+        {
+          "version": "787",
+          "date": "2026-09-05T08:03:59Z",
+          "downloadURL": "https://github.com/gkuhtov/GeraKStore/releases/download/gerastore-ru.yandex.mobile.music-787/_GeraKStore.ipa",
+          "size": 119392861,
+          "appSize": 119392861,
+          "fileSize": 119392861,
+          "appFileSize": 119392861,
+          "human_file_size": "113.9 MB",
+          "appPlist": "https://gkuhtov.github.io/GeraKStore/plist/ru.yandex.mobile.music.plist",
+          "minimumOSVersion": "10.0",
+          "category": "Музыка",
+          "localizedDescription": "⚙️Особенности МОДА⚙️\n\n🩷Премиум-функции разблокированы.\n🩷Без рекламы.\n🩷Офлайн-прослушивание и высокое качество звука.\n\n🎵 Яндекс Музыка - миллионы треков, подкастов и аудиокниг, персональные рекомендации «Моя волна» и музыка без ограничений.",
+          "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/ru.yandex.mobile.music.png"
+        }
+      ]
+    },
+    {
+      "name": "MAX",
+      "version": "26.17.3",
+      "category": "Другое",
+      "description": "⚙️Особенности⚙️\n\n🩷Мессенджер, который вам совершенно не нужен.\n🩷Сообщения, звонки и всё самое необходимое.\n🩷Максимум внимания к вашей активности. 👀\n\n👀 MAX - зачем вам столько приватности, если можно просто установить ещё один мессенджер? Никакой паники, просто лёгкое ощущение, что за вами кто-то наблюдает.",
+      "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/ru.oneme.app.png",
+      "downloadURL": "https://github.com/gkuhtov/GeraKStore/releases/download/gerastore-ru.oneme.app-26.17.3/MAX_26.17.3.ipa",
+      "updated": "2026-10-06T15:09:22+0800",
+      "minIOSVersion": "10.0",
+      "bundleIdentifier": "ru.oneme.app",
+      "developerName": "ГЕРЫЧ",
+      "whatsNew": "",
+      "versions": [
+        {
+          "version": "26.17.3",
+          "date": "2026-10-06T07:09:22Z",
+          "downloadURL": "https://github.com/gkuhtov/GeraKStore/releases/download/gerastore-ru.oneme.app-26.17.3/MAX_26.17.3.ipa",
+          "size": 55778660,
+          "appSize": 55778660,
+          "fileSize": 55778660,
+          "appFileSize": 55778660,
+          "human_file_size": "53.2 MB",
+          "appPlist": "https://gkuhtov.github.io/GeraKStore/plist/ru.oneme.app.plist",
+          "minimumOSVersion": "10.0",
+          "category": "Другое",
+          "localizedDescription": "⚙️Особенности⚙️\n\n🩷Мессенджер, который вам совершенно не нужен.\n🩷Сообщения, звонки и всё самое необходимое.\n🩷Максимум внимания к вашей активности. 👀\n\n👀 MAX - зачем вам столько приватности, если можно просто установить ещё один мессенджер? Никакой паники, просто лёгкое ощущение, что за вами кто-то наблюдает.",
+          "iconURL": "https://gkuhtov.github.io/GeraKStore/icons/ru.oneme.app.png"
+        }
+      ]
     }
   ]
 }
