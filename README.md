@@ -5,7 +5,7 @@
 ### Веб-каталог приложений экосистемы GeraK
 
 
-[Открыть сайт](https://gkuhtov.github.io/GeraKStore-Web/) · [Основной каталог](https://github.com/gkuhtov/GeraKStore)
+[Открыть сайт](https://gkuhtov.github.io/GeraKWeb/) · [Основной каталог](https://github.com/gkuhtov/GeraKStore)
 
 [Профиль автора](https://github.com/gkuhtov)
 
@@ -46,15 +46,15 @@
 
 Сайт опубликован через GitHub Pages:
 
-**[gkuhtov.github.io/GeraKStore-Web](https://gkuhtov.github.io/GeraKStore-Web/)**
+**[gkuhtov.github.io/GeraKWeb](https://gkuhtov.github.io/GeraKWeb/)**
 
 Перед изменением путей к стилям, скриптам, изображениям или данным проверьте ссылки в `index.html`. После публикации проверьте главную страницу и работу поиска.
 
 ## 🔗 Связанные проекты
 
 - [GeraKStore](https://github.com/gkuhtov/GeraKStore) — основной каталог и данные приложений.
-- [GeraKStore-Manager](https://github.com/gkuhtov/GeraKStore-Manager) — инструмент управления каталогом.
-- [GeraKStore-Welcome](https://github.com/gkuhtov/GeraKStore-Welcome) — приветственные интерфейсы.
+- [GeraKManager](https://github.com/gkuhtov/GeraKManager) — инструмент управления каталогом.
+- [GeraKWelcome](https://github.com/gkuhtov/GeraKWelcome) — приветственные интерфейсы.
 - [GeraKProtocol](https://github.com/gkuhtov/GeraKProtocol) — документация экосистемы.
 
 ---
