@@ -1,7 +1,7 @@
 const REPO_URLS = [
-  "https://gkuhtov.github.io/GeraStore/repo.json",
-  "https://cdn.jsdelivr.net/gh/gkuhtov/GeraStore@main/repo.json",
-  "https://raw.githubusercontent.com/gkuhtov/GeraStore/main/repo.json"
+  "https://gkuhtov.github.io/GeraKStore/repo.json",
+  "https://cdn.jsdelivr.net/gh/gkuhtov/GeraKStore@main/repo.json",
+  "https://raw.githubusercontent.com/gkuhtov/GeraKStore/main/repo.json"
 ];
 
 const REPO_URL = REPO_URLS[0];
@@ -479,7 +479,7 @@ async function loadRepoUpdatedDate() {
 
   try {
     const response = await fetch(
-      "https://api.github.com/repos/gkuhtov/GeraStore",
+      "https://api.github.com/repos/gkuhtov/GeraKStore",
       {cache:"no-store"}
     );
 
@@ -677,7 +677,7 @@ function setupCardCursorLight() {
 function setupRepoCopy() {
   $("#copyRepo").addEventListener("click", async () => {
     const repo =
-      "https://raw.githubusercontent.com/gkuhtov/GeraStore/main/repo.json";
+      "https://raw.githubusercontent.com/gkuhtov/GeraKStore/main/repo.json";
 
     try {
       await navigator.clipboard.writeText(repo);
