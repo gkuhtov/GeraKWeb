@@ -8,6 +8,8 @@
 
 [Открыть сайт](https://gkuhtov.github.io/GeraKStore-Web/) · [Основной каталог](https://github.com/gkuhtov/GeraKStore)
 
+[Профиль автора](https://github.com/gkuhtov)
+
 </div>
 
 ---
@@ -56,10 +58,10 @@
 - [GeraKStore-Welcome](https://github.com/gkuhtov/GeraKStore-Welcome) — приветственные интерфейсы.
 - [GeraKProtocol](https://github.com/gkuhtov/GeraKProtocol) — документация экосистемы.
 
+---
+
 ## 👤 Авторство
 
 **Гера Кухтов / madebygood** · [GitHub](https://github.com/gkuhtov)
 
----
-
-<sub>GeraKStore Web · Документация проекта · Русский язык</sub>
+<sub>Экосистема GeraK · Документация на русском языке</sub>
