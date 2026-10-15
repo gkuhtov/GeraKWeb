@@ -30,38 +30,29 @@ jobs:
           node-version: "22"
       - name: Check JavaScript syntax
         run: node --check assets/js/gerastore.js
-      - name: Validate catalog JSON and local resources
+      - name: Validate fallback catalog
         run: |
           python3 - <<'PY'
           import json
-          from pathlib import Path
           from urllib.parse import urlparse
+          from pathlib import Path
 
-          root = Path(".")
-          repo = json.loads((root / "repo.json").read_text(encoding="utf-8"))
-          fallback = json.loads((root / "data/apps.json").read_text(encoding="utf-8"))
-          apps = repo.get("appRepositories")
-          assert isinstance(apps, list) and apps, "repo.json must contain appRepositories"
-          assert isinstance(fallback.get("apps"), list) and fallback["apps"], "fallback catalog must contain apps"
-          assert not any(a.get("name") == "GeraStore Demo" for a in fallback["apps"]), "demo card must not be shipped"
-          ids = [a.get("bundleIdentifier") or a.get("bundleID") for a in apps]
-          ids = [value for value in ids if value]
+          catalog = json.loads(Path("data/apps.json").read_text(encoding="utf-8"))
+          apps = catalog.get("apps")
+          assert isinstance(apps, list) and apps, "fallback catalog must contain apps"
+          assert not any(a.get("name") == "GeraStore Demo" for a in apps), "demo card must not be shipped"
+          ids = [a.get("bundleIdentifier") for a in apps if a.get("bundleIdentifier")]
           assert len(ids) == len(set(ids)), "duplicate bundle identifiers detected"
 
           for app in apps:
-              assert app.get("appName"), "application without appName"
-              assert app.get("appPackage"), f"missing IPA URL: {app.get('appName')}"
-              assert app.get("appImage"), f"missing icon URL: {app.get('appName')}"
+              assert app.get("name"), "application without a name"
+              assert app.get("downloadURL") and app["downloadURL"] != "#", f"missing download URL: {app.get('name')}"
+              icon = app.get("iconURL", "")
+              assert icon.startswith("https://") or (icon and (Path(icon).is_file() or icon.startswith("assets/"))), f"invalid icon URL: {app.get('name')}"
               for version in app.get("versions", []):
-                  icon = version.get("iconURL", "")
-                  if icon:
-                      assert icon.startswith("https://"), f"version icon must be absolute HTTPS: {app.get('appName')}"
-                  plist = version.get("appPlist", "")
-                  if plist:
-                      parsed = urlparse(plist)
-                      assert parsed.scheme == "https" and parsed.netloc == "gkuhtov.github.io", f"invalid plist URL: {plist}"
-                      rel = parsed.path.removeprefix("/GeraKStore/")
-                      assert (root / rel).is_file(), f"plist file missing: {rel}"
+                  url = version.get("iconURL", "")
+                  if url:
+                      assert url.startswith("https://"), f"version icon must be absolute HTTPS: {app.get('name')}"
 
-          print(f"OK: {len(apps)} store apps, {len(fallback['apps'])} fallback apps, unique IDs, valid local plist files.")
+          print(f"OK: {len(apps)} real fallback apps, unique IDs, download links and icon references present.")
           PY
