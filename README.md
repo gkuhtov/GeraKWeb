@@ -4,7 +4,6 @@
 
 ### Веб-каталог приложений экосистемы GeraK
 
-**🌐 Витрина GeraKStore: чтобы всё выглядело аккуратно, даже когда внутри движ.**
 
 [Открыть сайт](https://gkuhtov.github.io/GeraKStore-Web/) · [Основной каталог](https://github.com/gkuhtov/GeraKStore)
 
